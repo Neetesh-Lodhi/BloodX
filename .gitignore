@@ -1,0 +1,46 @@
+# --- Dependencies ---
+node_modules/
+.pnp
+.pnp.js
+
+# --- Environment / Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# --- Debug/Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+auth_token
+logs
+*.log
+
+# --- Frontend Specific (React/Vite) ---
+dist/
+build/
+.eslintcache
+.stylelintcache
+
+# --- Backend Specific ---
+# If you use a tool like nodemon for development
+.nodemonignore
+
+# --- Testing ---
+coverage/
+
+# --- IDE/OS Specific ---
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Production/Build ---
+out/
